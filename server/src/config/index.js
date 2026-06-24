@@ -8,6 +8,7 @@ const config = {
   NODE_ENV: process.env.NODE_ENV,
   DB_URI: process.env.DB_URI,
   JWT_SECRET: process.env.JWT_SECRET,
+  CLIENT_URL: process.env.CLIENT_URL,
 };
 
 export default config;
